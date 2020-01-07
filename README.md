@@ -2,8 +2,9 @@
 
 ## Requirement
 1. Python 3.7
-2. PyTorch 
-3. Transformer 
+2. PyTorch 1.3.1
+3. <a href="https://github.com/huggingface/transformers" target="_blank">Transformer</a> v2.3.0
+
 
 ## Annotation
 1. example_01：
