@@ -10,4 +10,4 @@
 
 ## Annotation
 1. example_01：用huggingface/transformers提供的BertTokenizer,BertForSequenceClassification；
-2. example_02：由于1中huggingface提供的BertTokenizer在对句子做encode的时候是基于字逐字切分的，所以我想试试按词切分的效果，引入HanLP提供的PerceptronSegmenter感知器分词，对训练集数据做切词处理，添加进BERT pre-trian model（<a href="https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip" target="_blank">BERT-Base, Chinese</a>）中的vocab.txt
+2. example_02：由于1中huggingface提供的BertTokenizer在对句子做encode的时候是基于字逐字切分的，所以我想试试按词切分的效果，引入HanLP提供的PerceptronSegmenter感知器分词，对训练集数据做切词处理，添加进BERT pre-trian model（<a href="https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip" target="_blank">BERT-Base, Chinese</a>）中的vocab.txt。
